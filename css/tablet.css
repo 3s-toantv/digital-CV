@@ -1,0 +1,33 @@
+
+@media screen and (max-device-width: 1200px) {
+  #nav-bar .container .col:nth-child(3) {
+    display: none;
+  }
+  #nav-bar .container .col:nth-child(2) {
+    border-right:1px solid #6c757d !important; ;
+  }
+
+  #certificate .content {
+    display: grid  !important;
+    grid-template-rows: 1fr !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  #certificate .content img,
+  #certificate .content div {
+    width: 100% !important;
+  }
+
+  #project .project-content {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    row-gap: 10px;
+  }
+
+  .digital .timeline li {
+    text-align: start !important;
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
+  }
+}

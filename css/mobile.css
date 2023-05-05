@@ -1,0 +1,30 @@
+@media screen and (max-device-width: 576px) {
+
+    #nav-bar .container .col:nth-child(2) {
+        border-left: 1px solid #6c757d !important;
+    }
+
+    #nav-bar .container .col:nth-child(4) {
+        border-left: 1px solid #6c757d !important;
+        border-right: 1px solid #6c757d !important;
+    }
+
+    #nav-bar .nav-mobile {
+        padding: 0.5rem !important;
+        text-align: justify;
+    }
+
+    .certificates-container .certificate-about:nth-child(2)::before {
+        content: '';
+        display: none;
+    }
+
+    #project .project-header {
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: flex-start !important;
+        align-items: flex-start !important;
+        gap: 10px;
+    }
+
+}
